@@ -132,7 +132,7 @@ La validation du champ `title` est volontairement incomplète : un `POST /tasks`
    ```
 11. Créer une branche de correctif depuis cette ligne de maintenance :
     ```bash
-   git checkout -b hotfix/fix-title-validation
+    git checkout -b hotfix/fix-title-validation
     ```
 12. Corriger le problème dans `CreateTaskDto`.
 13. Ajouter ou adapter un test qui vérifie que le titre vide est rejeté.
